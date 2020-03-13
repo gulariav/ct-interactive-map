@@ -1,0 +1,2097 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,p{
+    margin:0;
+    padding: 0;
+}
+h4{
+    margin-bottom: 12px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+.intetactivemap{
+    width:1250px;
+    margin:0 auto;
+    position: relative;
+}
+.intetactivemap img{
+    width:100%;
+    z-index: 1; /*new code edit*/
+}
+.intetactivemap > div:hover {
+    z-index: 999;
+}
+
+/*car css start*/
+
+
+.car{
+    height: 29%;
+    width: 51%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    z-index: 5; /*new code edit*/
+}
+.car:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.car:hover .car-inner{
+    display: block;
+}
+.car-inner{
+    width:275px;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    display: none;
+}
+.car-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.car-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.car-inner img{
+    width:100%; 
+}
+.car-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.car-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+/*car css end*/
+
+/*open css start*/
+
+.open-now{
+    height: 22%;
+    width: 9%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 41px;
+    right: 35px;
+    z-index: 4; /*new code edit*/
+}
+.open-now:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.open-now:hover .open-now-inner{
+    display: block;
+}
+.open-now-inner{
+    width:275px;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    display: none;
+}
+.open-now-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.open-now-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.open-now-inner img{
+    width:100%; 
+}
+.open-now-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.open-now-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+/*open start end*/
+
+
+/*creative css start*/
+
+.creative{
+    height: 18%;
+    width: 12%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    z-index: 4; /*new code edit*/
+}
+.creative:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.creative:hover .creative-inner{
+    display: block;
+}
+.creative-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: -171%;
+    right: 102%;
+    display: none;
+}
+.creative-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.creative-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.creative-inner img{
+    width:100%; 
+}
+.creative-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.creative-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+/*creative start end*/
+
+
+/*creative css start*/
+
+.clicktecs{
+    height: 14%;
+    width: 13%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 27%;
+    right: 32%;
+    z-index: 11; /*new code edit*/
+}
+.clicktecs:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.clicktecs:hover .clicktecs-inner{
+    display: block;
+}
+.clicktecs-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: 0%;
+    right: 102%;
+    display: none;
+}
+.clicktecs-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.clicktecs-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.clicktecs-inner img{
+    width:100%; 
+}
+.clicktecs-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.clicktecs-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+/*creative start end*/
+
+
+
+/*handicap-man start */
+
+.handicap-man{
+    height: 5%;
+    width: 3%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 28%;
+    left: 14%;
+    z-index: 3; /*new code edit*/
+}
+.handicap-man:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.handicap-man:hover .handicap-man-inner{
+    display: block;
+}
+.handicap-man-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    -bottom: 84%;
+    left: 105%;
+    display: none;
+}
+.handicap-man-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.handicap-man-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.handicap-man-inner img{
+    width:100%; 
+}
+.handicap-man-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.handicap-man-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*handicap-man end*/
+
+/*wall-sign start */
+
+.wall-sign{
+    height: 15%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 28%;
+    left: 17%;
+    z-index: 6; /*new code edit*/
+}
+.wall-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.wall-sign:hover .wall-sign-inner{
+    display: block;
+}
+.wall-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.wall-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.wall-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.wall-sign-inner img{
+    width:100%; 
+}
+.wall-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.wall-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*wall-sign end*/
+
+
+/*wall-sign start */
+
+.window-sign{
+    height: 15%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 28%;
+    left: 31%;
+    z-index: 3; /*new code edit*/
+}
+.window-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.window-sign:hover .window-sign-inner{
+    display: block;
+}
+.window-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.window-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.window-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.window-sign-inner img{
+    width:100%; 
+}
+.window-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.window-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*wall-sign end*/
+
+/*xyz-sign start */
+
+.xyz-sign{
+    height: 11%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 41%;
+    right: 9%;
+    z-index: 3; /*new code edit*/
+}
+.xyz-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.xyz-sign:hover .xyz-sign-inner{
+    display: block;
+}
+.xyz-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.xyz-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.xyz-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.xyz-sign-inner img{
+    width:100%; 
+}
+.xyz-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.xyz-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*xyz-sign end*/
+
+
+/*door-sign start */
+
+.door-sign{
+    height: 19%;
+    width: 9%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 19%;
+    right: 13%;
+    z-index: 11; /*new code edit*/
+}
+.door-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.door-sign:hover .door-sign-inner{
+    display: block;
+}
+.door-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.door-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.door-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.door-sign-inner img{
+    width:100%; 
+}
+.door-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.door-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*door-sign end*/
+
+/*led-sign start */
+
+.led-sign{
+    height: 5%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 44%;
+    left: 17%;
+    z-index: 9; /*new code edit*/
+}
+.led-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.led-sign:hover .led-sign-inner{
+    display: block;
+}
+.led-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+    z-index: 9; /*new code edit*/
+}
+.led-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.led-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.led-sign-inner img{
+    width:100%; 
+}
+.led-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.led-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*led-sign end*/
+
+
+/*led-sign start */
+
+.made-easy{
+    height: 5%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 52%;
+    left: 9%;
+    z-index: 10; /*new code edit*/
+}
+.made-easy:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.made-easy:hover .made-easy-inner{
+    display: block;
+}
+.made-easy-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.made-easy-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.made-easy-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.made-easy-inner img{
+    width:100%; 
+}
+.made-easy-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.made-easy-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*led-sign end*/
+
+/*led-sign start */
+
+.Directional-sign{
+    height: 21%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    z-index: 3; /*new code edit*/
+}
+.Directional-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.Directional-sign:hover .Directional-sign-inner{
+    display: block;
+}
+.Directional-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.Directional-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.Directional-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.Directional-sign-inner img{
+    width:100%; 
+}
+.Directional-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Directional-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*led-sign end*/
+
+
+/*roof-sign start */
+
+.roof-sign{
+    height: 13%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    z-index: 3; /*new code edit*/
+}
+.roof-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.roof-sign:hover .roof-sign-inner{
+    display: block;
+}
+.roof-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.roof-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.roof-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.roof-sign-inner img{
+    width:100%; 
+}
+.roof-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.roof-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*roof-sign end*/
+
+/*wall-graphics-sign start */
+
+.wall-graphics-sign{
+    height: 13%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    z-index: 3; /*new code edit*/
+}
+.wall-graphics-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.wall-graphics-sign:hover .wall-graphics-sign-inner{
+    display: block;
+}
+.wall-graphics-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.wall-graphics-sign-inner div{
+    padding:10px;
+    border:5px solid darkgray;
+}
+.wall-graphics-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+}
+.wall-graphics-sign-inner img{
+    width:100%; 
+}
+.wall-graphics-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.wall-graphics-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    border:1px solid gray;
+    text-align: center;
+}
+
+
+
+/*wall-graphics-sign end*/
+
+
+
+@media(max-width: 1200px){
+    .intetactivemap{
+        width:1100px;
+    }
+}
+@media(max-width: 1024px){
+    .intetactivemap{
+        width:992px;
+    }
+    .open-now-inner{
+        bottom: -100%;
+    }
+    .creative-inner{
+        bottom: -243%;
+    }
+}
+@media(max-width: 800px){
+    .intetactivemap{
+        width:100%;
+    }
+    .creative-inner{
+        bottom: -310%;
+    }
+    .roof-sign-inner{
+        top: 87px;
+        left: 52%;
+    }
+    .wall-graphics-sign-inner{
+        top: 76px;
+        left: 7%;
+    }
+    .handicap-man-inner{
+        top:25%;
+    }
+}
+@media(max-width: 500px){
+    .intetactivemap{
+        width:100%;
+    }
+    .creative-inner{
+        bottom: -1080%;
+        right:-40%;
+        top: 182px;
+    }
+    .open-now-inner{
+        bottom: -445px;
+        right: 46%;
+    }
+    .clicktecs-inner{
+        bottom: -1176%;
+        right: -215%;
+    }
+    .car-inner{
+        left: -11%;
+        bottom: -439%;
+        top: 76px;
+    }
+    .car{
+        left:28px;
+    }
+    .Directional-sign-inner{
+        top:281px;
+        left: 14px;
+    }
+    .wall-sign-inner{
+        top:132px;
+        left: -38px;
+    }
+    .led-sign-inner{
+        top:132px;
+        left: -41px;
+    }
+    .window-sign-inner{
+        top:132px;
+        left: -83px;
+    }
+    .wall-graphics-sign-inner{
+        top: 214px;
+        left: -114%;
+        left: -133px;
+    }
+    .xyz-sign-inner{
+        top:150px;
+        right: -17px;
+    }
+    .door-sign-inner{
+        top:110px;
+        right: -32px;
+    }
+    .roof-sign-inner{
+        top: 261px;
+        left: -138px;
+    }
+    .handicap-man-inner{
+        top:100px;
+        left: -284%;
+    }
+    .made-easy-inner{
+        top: 154px;
+        left: 0px;
+    }
+    .open-now{
+        bottom: 7%;
+        right: 3%;
+    }
+}
+
+
+/*caution css start*/
+
+
+.caution{
+    height: 18%;
+    width: 10%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    z-index: 3;
+}
+.caution:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.caution:hover .caution-inner{
+    display: block;
+}
+.caution-inner{
+    width:275px;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: -220px;
+    left: 50%;
+    display: none;
+}
+.caution-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.caution-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.caution-inner img{
+    width:100%; 
+}
+.caution-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.caution-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.caution-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+/*caution css end*/
+
+/*open css start*/
+
+.white-board{
+    height: 46%;
+    width: 10%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 41px;
+    right: 12px;
+    z-index: 3;
+}
+.white-board:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.white-board:hover .white-board-inner{
+    display: block;
+}
+.white-board-inner{
+    width:275px;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0%;
+    right: 97%;
+    display: none;
+}
+.white-board-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.white-board-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.white-board-inner img{
+    width:100%; 
+}
+.white-board-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.white-board-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.white-board-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*open start end*/
+
+/*mandela css start*/
+
+.mandela-now{
+    height: 13%;
+    width: 15%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: -25px;
+    right: 31%;
+    border-radius: 49%;
+    z-index: 3;
+}
+.mandela-now:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.mandela-now:hover .mandela-inner{
+    display: block;
+}
+.mandela-inner{
+    width:275px;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 34%;
+    right: 97%;
+    display: none;
+}
+.mandela-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.mandela-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.mandela-inner img{
+    width:100%; 
+}
+.mandela-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.mandela-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.mandela-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*mandela start end*/
+
+
+/*click css start*/
+
+.click{
+    height: 15%;
+    width: 13%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    z-index: 3;
+}
+.click:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.click:hover .click-inner{
+    display: block;
+}
+.click-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top:25%;
+    right: 102%;
+    display: none;
+}
+.click-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.click-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.click-inner img{
+    width:100%; 
+}
+.click-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.click-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.click-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*click start end*/
+
+
+/*click css start*/
+
+.reception{
+    height: 3%;
+    width: 5%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 38%;
+    right: 30%;
+    z-index: 3;
+}
+.reception:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.reception:hover .reception-inner{
+    display: block;
+}
+.reception-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    bottom: -250px;
+    right: 102%;
+    display: none;
+}
+.reception-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.reception-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.reception-inner img{
+    width:100%; 
+}
+.reception-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.reception-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.reception-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*click start end*/
+
+
+/*wall-sign start */
+
+.wall-sign{
+    height: 15%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 28%;
+    left: 17%;
+    z-index: 5;
+}
+.wall-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.wall-sign:hover .wall-sign-inner{
+    display: block;
+}
+.wall-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.wall-sign-inner img{
+    width:100%; 
+}
+.wall-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.wall-sign-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*wall-sign end*/
+
+
+/*wall-sign start */
+
+.window-sign{
+    height: 15%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 28%;
+    left: 31%;
+    z-index: 3;
+}
+.window-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.window-sign:hover .window-sign-inner{
+    display: block;
+}
+
+.window-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.window-sign-inner img{
+    width:100%; 
+}
+.window-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.window-sign-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*wall-sign end*/
+
+/*circul start */
+
+.circul{
+    height: 19%;
+    width: 12%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 43%;
+    right: 22%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 3;
+}
+.circul:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.circul:hover .circul-inner{
+    display: block;
+}
+.circul-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.circul-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.circul-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.circul-inner img{
+    width:100%; 
+}
+.circul-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.circul-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.circul-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*circul end*/
+
+/*circul start */
+
+.haxagon{
+    height: 19%;
+    width: 46%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 43%;
+    right: 4%;
+    z-index: 2;
+
+}
+.haxagon:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.haxagon:hover .haxagon-inner{
+    display: block;
+}
+.haxagon-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.haxagon-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.haxagon-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.haxagon-inner img{
+    width:100%; 
+}
+.haxagon-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.haxagon-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.haxagon-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*circul end*/
+
+
+/*table-design start */
+
+.table-design{
+    height: 19%;
+    width: 35%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 19%;
+    right: 13%;
+    z-index: 2;
+}
+.table-design:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.table-design:hover .table-design-inner{
+    display: block;
+}
+.table-design-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.table-design-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.table-design-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.table-design-inner img{
+    width:100%; 
+}
+.table-design-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.table-design-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.table-design-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*table-design end*/
+
+/*floor-sign start */
+
+.floor-sign{
+    height: 13%;
+    width: 35%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 0%;
+    right: 42%;
+    z-index: 3;
+}
+.floor-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.floor-sign:hover .floor-sign-inner{
+    display: block;
+}
+.floor-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    display: none;
+}
+.floor-sign-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.floor-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.floor-sign-inner img{
+    width:100%; 
+}
+.floor-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.floor-sign-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.floor-sign-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*floor-sign end*/
+
+/*yellow-wall start */
+
+.yellow-wall{
+    height: 19%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    bottom: 40%;
+    left: 27%;
+    z-index: 3;
+}
+.yellow-wall:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.yellow-wall:hover .yellow-wall-inner{
+    display: block;
+}
+.yellow-wall-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.yellow-wall-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.yellow-wall-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.yellow-wall-inner img{
+    width:100%; 
+}
+.yellow-wall-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.yellow-wall-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.yellow-wall-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*yellow-wall end*/
+
+
+/*yellow-wall start */
+
+.diraction-easy{
+    height: 8%;
+    width: 6%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 6%;
+    left: 16%;
+    z-index: 3;
+}
+.diraction-easy:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.diraction-easy:hover .diraction-easy-inner{
+    display: block;
+}
+.diraction-easy-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.diraction-easy-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.diraction-easy-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.diraction-easy-inner img{
+    width:100%; 
+}
+.diraction-easy-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.diraction-easy-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.diraction-easy-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+/*yellow-wall end*/
+
+/*yellow-wall start */
+
+.glassdesign-sign{
+    height: 50%;
+    width: 25%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 23%;
+    left: 1%;
+    z-index: 3;
+}
+.glassdesign-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.glassdesign-sign:hover .glassdesign-sign-inner{
+    display: block;
+}
+.glassdesign-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.glassdesign-sign-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.glassdesign-sign-inner h4{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.glassdesign-sign-inner img{
+    width:100%; 
+}
+.glassdesign-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.glassdesign-sign-inner a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border:3px solid transparent;
+}
+.glassdesign-sign-inner a:hover{
+    background-color: transparent;
+    color:#bda805;
+    border:3px solid #bda805;
+}
+
+
+
+/*yellow-wall end*/
+
+
+/*human-sign start */
+
+.human-sign{
+    height: 7%;
+    width: 14%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 12%;
+    left: 31%;
+    z-index: 3;
+}
+.human-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.human-sign:hover .human-sign-inner{
+    display: block;
+}
+.human-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.human-sign-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.human-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.human-sign-inner img{
+    width:100%; 
+}
+.human-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.human-sign-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.human-sign-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*human-sign end*/
+
+/*restroom-sign start */
+
+.restroom-sign{
+    height: 4%;
+    width: 6%;
+    background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    z-index: 3;
+}
+.restroom-sign:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.restroom-sign:hover .restroom-sign-inner{
+    display: block;
+}
+.restroom-sign-inner{
+    width: 275px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+.restroom-sign-inner div{
+    padding:10px;
+    border:5px solid #d5be0b;
+}
+.restroom-sign-inner h4{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.restroom-sign-inner img{
+    width:100%; 
+}
+.restroom-sign-inner p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.restroom-sign-inner a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #bda805;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+.restroom-sign-inner a:hover{
+    background-color: transparent;
+    color: #bda805;
+    border: 3px solid #bda805;
+}
+
+
+
+/*restroom-sign end*/
+
+
+
+@media(max-width: 1200px){
+    .intetactivemap{
+        width:1100px;
+    }
+    .floor-sign-inner{
+        top: 69px;
+        right: 74%;
+    }
+}
+@media(max-width: 1024px){
+    .intetactivemap{
+        width:992px;
+    }
+}
+@media(max-width: 800px){
+    .intetactivemap{
+        width:100%;
+    }
+    .click-inner{
+        top: 239px;
+    }
+    .human-sign-inner{
+        top: 87px;
+        left: 52%;
+    }
+    .restroom-sign-inner{
+        top: 76px;
+        left: 7%;
+    }
+    .handicap-man-inner{
+        top:25%;
+    }
+    .floor-sign-inner {
+        top: 44px;
+        right: 29%;
+    }
+}
+@media(max-width: 500px){
+    .intetactivemap{
+        width:100%;
+    }
+    .click-inner{
+        bottom: -1080%;
+        right:-40%;
+        top: 182px;
+    }
+    .white-board-inner{
+        bottom: -654%;
+        right: 0;
+        top:100px;
+    }
+    .reception-inner{
+        bottom: -451px;
+        right: -80px;
+    }
+    .caution-inner{
+        left: -18px;
+        bottom: -411px;
+    }
+    .caution{
+        left:28px;
+    }
+    .glassdesign-sign-inner{
+        top: 163px;
+        left: 6px;
+    }
+    .wall-sign-inner{
+        top:132px;
+        left: -38px;
+    }
+    .yellow-wall-inner{
+        top:132px;
+        left: -74px;
+    }
+    .window-sign-inner{
+        top:132px;
+        left: -83px;
+    }
+    .restroom-sign-inner{
+        top: 143px;
+        left: -106px;
+    }
+    .circul-inner{
+        top:150px;
+        right: -55px;
+    }
+    .table-design-inner{
+        top:110px;
+        right: -32px;
+    }
+    .human-sign-inner{
+        top: 191px;
+        left: -90px;
+    }
+    .handicap-man-inner{
+        top:100px;
+        left: -284%;
+    }
+    .diraction-easy-inner{
+        top: 188px;
+        left: -39px;
+    }
+    .white-board{
+        bottom: 7%;
+        right: 3%;
+    }
+    .reception{
+        bottom: 40%;
+    }
+    .mandela-inner {
+        top: 109%;
+        right: -144%;
+    }
+    .mandela-inner {
+        top: 125%;
+        right: -144%;
+    }
+    .floor-sign-inner {
+        top: 67%;
+        right: -92%;
+    }
+    .haxagon-inner {
+        top: 89%;
+        right: 10%;
+    }
+}
+
+
+.im-legend {
+    margin: 35px auto;
+    text-align: center;
+}
+
+.im-inside {
+    display: none;
+}
+
+.im-legend .btn {
+    background-color: #077da9;
+}
+
+
+.im-legend .btn.active, 
+.im-legend .btn.active:focus, 
+.im-legend .btn.active:hover {
+    background-color: #e4141d;
+}
