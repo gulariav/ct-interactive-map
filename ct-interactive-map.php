@@ -105,31 +105,31 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
             ),
             array(
                 'section_id'        => 'open_now_sign',
-                'title'             => 'Open Now',
+                'title'             => 'Sidewalk Sign',
                 'collapsible'       => array(
                     'is_collapsed'     => true,
                 ),
             ),
             array(
                 'section_id'        => 'creative_sign',
-                'title'             => 'Creative Sign',
+                'title'             => 'Monument Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'clicktecs_sign',
-                'title'             => 'Clicktecs Sign',
+                'title'             => 'Yard Sign',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
                 ),
             ),
             array(
                 'section_id'        => 'handicap_man',
-                'title'             => 'Handicap Man Sign',
+                'title'             => 'Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'wall_sign',
-                'title'             => 'Wall Sign',
+                'title'             => 'Outdoor Sign',
                 'collapsible'       => true
             ),
             array(
@@ -139,22 +139,22 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
             ),
             array(
                 'section_id'        => 'xyz_sign',
-                'title'             => 'XYZ Sign',
+                'title'             => 'Awning Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'door_sign',
-                'title'             => 'Door Sign',
+                'title'             => 'Vinyl Lettering',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'led_sign',
-                'title'             => 'LED Sign',
+                'title'             => 'Electrical Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'made_easy_sign',
-                'title'             => 'Made Easy Sign',
+                'title'             => 'Store Front Sign',
                 'collapsible'       => true
             ),
             array(
@@ -169,7 +169,7 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
             ),
             array(
                 'section_id'        => 'wall_graphic_sign',
-                'title'             => 'Wall Graphic Sign',
+                'title'             => 'Wall Graphic',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
                     'toggle_all_button' => 'bottom-right',
@@ -191,26 +191,26 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
         $this->addSettingSections(
             array(
                 'section_id'    => 'caution_sign',
-                'title'         => __( 'Caution Graphic', 'ct-vg' ),
+                'title'         => __( 'Caution Sign', 'ct-vg' ),
                 'collapsible'       => array(
                     'toggle_all_button' => 'top-right',
                 ),
             ),
             array(
                 'section_id'        => 'white_board_sign',
-                'title'             => 'White Board',
+                'title'             => 'Retractable Banners',
                 'collapsible'       => array(
                     'is_collapsed'     => true,
                 ),
             ),
             array(
                 'section_id'        => 'mandela_now_sign',
-                'title'             => 'Mandela Now',
+                'title'             => 'Ceiling Graphics',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'click_sign',
-                'title'             => 'Click Sign',
+                'title'             => 'Hanging Sign',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
                 ),
@@ -222,42 +222,42 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
             ),
             array(
                 'section_id'        => 'circul_sign',
-                'title'             => 'Circular Sign',
+                'title'             => 'Front Desk Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'haxagon_sign',
-                'title'             => 'Haxagon Sign',
+                'title'             => 'Wall Graphics',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'table_design',
-                'title'             => 'Table Design Sign',
+                'title'             => 'Front Desk Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'floor_sign',
-                'title'             => 'Floor Sign',
+                'title'             => 'Floor Graphics',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'yellow_wall_sign',
-                'title'             => 'Yellow Wall Sign',
+                'title'             => 'Lobby Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'direction_easy_sign',
-                'title'             => 'Diraction Easy Sign',
+                'title'             => 'Exit Sign',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'glassdesign_sign',
-                'title'             => 'Glass Design Sign',
+                'title'             => 'Privacy Film',
                 'collapsible'       => true
             ),
             array(
                 'section_id'        => 'human_sign',
-                'title'             => 'Human Sign',
+                'title'             => 'Hanging Sign',
                 'collapsible'       => true
             ),
             array(

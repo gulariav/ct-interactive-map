@@ -1,19 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
 
-body{
-    padding:0;
-    margin:0;
-    font-family: 'Poppins', sans-serif;
-}
-h1,h2,h3,h4,p{
-    margin:0;
-    padding: 0;
-}
-h4{
+.im-wrapper h4{
     margin-bottom: 12px;
     text-align: center;
 }
-p{
+.im-wrapper p{
     text-align: center;
     font-size: 16px;
 }
@@ -2081,6 +2071,13 @@ p{
     text-align: center;
 }
 
+.im-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
 .im-inside {
     display: none;
 }
@@ -2094,4 +2091,9 @@ p{
 .im-legend .btn.active:focus, 
 .im-legend .btn.active:hover {
     background-color: #e4141d;
+}
+
+
+.intetactivemap h4 {
+    font-size:24px;
 }
