@@ -21,3 +21,5 @@ Changed some elements title
 Removed the font from css file, use default font from theme
 Updated Section Titles
 Bug fixed
+
+
