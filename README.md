@@ -1,4 +1,5 @@
-=== CT Interactive Map ===
+## CT Interactive Map
+
 Contributors: gulariav
 Tags: signs, interactivemap, clicktecs
 Requires at least: 4.4.0
@@ -6,20 +7,20 @@ Tested up to: 4.9.9
 License: Copyright Clicktecs
 
 
+### Description
+Inteactive Sign Plug-in to represent the sign boards. Built using [Admin Page Framework](http://admin-page-framework.michaeluno.jp/ "Read more about Admin Page Framework"). 
 
-== Description ==
 
+#### Changelog
+--------
 
-== Changelog ==
-1.0.2
+##### 1.0.2
 Changed backend labels
 Removed generic conflicting styles from css file
 
-1.0.1
+##### 1.0.1
 Added class:btn on a buttons in frontend layout
 Changed some elements title 
 Removed the font from css file, use default font from theme
 Updated Section Titles
 Bug fixed
-
-
