@@ -111,7 +111,7 @@ $final_output = '
             <div class="door-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'image' ) ).'" alt="">
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'image' ) ).'" alt="">
                     <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'desc' ) ).'</p>
                     <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'link' ) ).'">View More..</a>
                 </div>

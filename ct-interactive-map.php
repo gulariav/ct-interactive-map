@@ -2,7 +2,7 @@
 /* 
 Plugin Name: CT Interactive Map 
 Author: Vishal Gularia
-Version: 1.0.0
+Version: 1.0.3
 Plugin URI: https://clicktecs.com/
 Description: Customized Interactive Map plugin for Signs Websites by Clicktecs.
 Requires at least: 3.4
@@ -124,7 +124,7 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
             ),
             array(
                 'section_id'        => 'handicap_man',
-                'title'             => 'Sign',
+                'title'             => 'ADA Sign',
                 'collapsible'       => true
             ),
             array(

@@ -1,5 +1,6 @@
 ## CT Interactive Map
 
+Version:1.0.3
 Contributors: gulariav <br/>
 Tags: signs, interactivemap, clicktecs<br/>
 Requires at least: 4.4.0<br/>
@@ -10,9 +11,19 @@ License: Copyright Clicktecs<br/>
 ### Description
 Inteactive Sign Plug-in to represent the sign boards. Built using [Admin Page Framework](http://admin-page-framework.michaeluno.jp/ "Read more about Admin Page Framework"). 
 
+### Usage
+**How to add Interactive Map in Pages**
+Use this shortcode [ct_interactive_map] to add the interactive map on pages.
+ 
+
 
 ### Changelog
 --------
+
+##### 1.0.3
+Bugs fixed<br/>
+Changed Label of handicaped sign to ADA Sign<br/>
+Readme update, usage added<br/>
 
 ##### 1.0.2
 Changed backend labels<br/>
