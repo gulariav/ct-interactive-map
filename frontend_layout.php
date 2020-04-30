@@ -8,12 +8,12 @@ $main_inside_img_input = CtInteractiveMap_AdminPageFramework::getOption( 'CtInte
 if( !empty( $main_outside_img_input )) 
   $main_outside_img_src = $main_outside_img_input;
 else 
-  $main_outside_img_src = plugin_dir_url( __FILE__ ).'interactiveMap-outside.jpg';
+  $main_outside_img_src = plugin_dir_url( __FILE__ ).'img/interactiveMap-outside.jpg';
 
 if( !empty( $main_inside_img_input )) 
   $main_inside_img_src = $main_inside_img_input;
 else 
-  $main_inside_img_src = plugin_dir_url( __FILE__ ).'banner-indoor.jpg';
+  $main_inside_img_src = plugin_dir_url( __FILE__ ).'img/banner-indoor.jpg';
   
 $final_output = '
 <div class="im-header">

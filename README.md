@@ -1,6 +1,6 @@
 ## CT Interactive Map
 
-Version:2.0.1<br/>
+Version:2.0.2<br/>
 Contributors: gulariav <br/>
 Tags: signs, interactivemap, clicktecs<br/>
 Requires at least: 4.4.0<br/>
@@ -19,6 +19,11 @@ Use this shortcode [ct_interactive_map] to add the interactive map on pages.
 
 ### Changelog
 --------
+
+##### 2.0.2
+Moved image to separate image folder <br/>
+modified img path in front end view file<br/>
+Readme update<br/>
 
 ##### 2.0.1
 Changed backend labels for all signs<br/>
