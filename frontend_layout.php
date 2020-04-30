@@ -27,8 +27,8 @@ $final_output = '
 <div class="intetactivemap im-outside">
 
    		<img src="'.$main_outside_img_src.'">
-   		<div class="car">
-   			<div class="car-inner">
+   		<div class="vehicle">
+   			<div class="vehicle-inner">
    				<div class="">
    					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'title' ) ).'</h4>
    					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'image' ) ).'">
@@ -37,53 +37,53 @@ $final_output = '
    				</div>
    			</div>
    		</div>
-   		<div class="open-now">
-   			<div class="open-now-inner">
+   		<div class="sidewalk-sign">
+   			<div class="sidewalk-sign-inner">
    				<div class="">
-   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'open_now_sign', 'title' ) ).'</h4>
-   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'open_now_sign', 'image' ) ).'" alt="">
-   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'open_now_sign', 'desc' ) ).'</p>
-   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'open_now_sign', 'link' ) ).'">View More..</a>
+   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'sidewalk_sign', 'title' ) ).'</h4>
+   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'sidewalk_sign', 'image' ) ).'" alt="">
+   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'sidewalk_sign', 'desc' ) ).'</p>
+   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'sidewalk_sign', 'link' ) ).'">View More..</a>
    				</div>
    			</div>
    		</div>
-   		<div class="creative">
-   			<div class="creative-inner">
+   		<div class="monument-sign">
+   			<div class="monument-sign-inner">
    				<div class="">
-   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'creative_sign', 'title' ) ).'</h4>
-   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'creative_sign', 'image' ) ).'" alt="">
-   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'creative_sign', 'desc' ) ).'</p>
-   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'creative_sign', 'link' ) ).'">View More..</a>
+   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'monument_sign', 'title' ) ).'</h4>
+   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'monument_sign', 'image' ) ).'" alt="">
+   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'monument_sign', 'desc' ) ).'</p>
+   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'monument_sign', 'link' ) ).'">View More..</a>
    				</div>
    			</div>
    		</div>
-   		<div class="clicktecs">
-   			<div class="clicktecs-inner">
+   		<div class="yard-sign">
+   			<div class="yard-sign-inner">
    				<div class="">
-   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'clicktecs_sign', 'title' ) ).'</h4>
-   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'clicktecs_sign', 'image' ) ).'" alt="">
-   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'clicktecs_sign', 'desc' ) ).'</p>
-   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'clicktecs_sign', 'link' ) ).'">View More..</a>
+   					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yard_sign', 'title' ) ).'</h4>
+   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yard_sign', 'image' ) ).'" alt="">
+   					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yard_sign', 'desc' ) ).'</p>
+   					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yard_sign', 'link' ) ).'">View More..</a>
    				</div>
    			</div>
    		</div>
-        <div class="handicap-man">
-            <div class="handicap-man-inner">
+        <div class="ada-sign">
+            <div class="ada-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'handicap_man', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'handicap_man', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'handicap_man', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'handicap_man', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ada_sign', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ada_sign', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ada_sign', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ada_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="wall-sign">
-            <div class="wall-sign-inner">
+        <div class="outdoor-sign">
+            <div class="outdoor-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'outdoor_sign', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'outdoor_sign', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'outdoor_sign', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'outdoor_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
@@ -97,43 +97,43 @@ $final_output = '
                 </div>
             </div>
         </div>
-        <div class="xyz-sign">
-            <div class="xyz-sign-inner">
+        <div class="awning-sign">
+            <div class="awning-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'xyz_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'xyz_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'xyz_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'xyz_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'awning_sign', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'awning_sign', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'awning_sign', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'awning_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="door-sign">
-            <div class="door-sign-inner">
+        <div class="vinyl_lettering">
+            <div class="vinyl_lettering-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'door_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vinyl_lettering', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vinyl_lettering', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vinyl_lettering', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vinyl_lettering', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="led-sign">
-            <div class="led-sign-inner">
+        <div class="electrical-sign">
+            <div class="electrical-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'led_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'led_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'led_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'led_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'electrical_sign', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'electrical_sign', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'electrical_sign', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'electrical_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="made-easy">
-            <div class="made-easy-inner">
+        <div class="store-front-sign">
+            <div class="store-front-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'made_easy_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'made_easy_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'made_easy_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'made_easy_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'store_front_sign', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'store_front_sign', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'store_front_sign', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'store_front_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
@@ -160,10 +160,10 @@ $final_output = '
         <div class="wall-graphics-sign">
             <div class="wall-graphics-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic_sign', 'title' ) ).'</h4>
-                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic_sign', 'image' ) ).'" alt="">
-                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic_sign', 'desc' ) ).'</p>
-                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic', 'title' ) ).'</h4>
+                    <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic', 'image' ) ).'" alt="">
+                    <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic', 'desc' ) ).'</p>
+                    <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphic', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
@@ -181,33 +181,33 @@ $final_output = '
           </div>
         </div>
       </div>
-      <div class="white-board">
-        <div class="white-board-inner">
+      <div class="retractable-banners">
+        <div class="retractable-banners-inner">
           <div class="">
-            <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'white_board_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'white_board_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'white_board_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'white_board_sign', 'link' ) ).'">View More..</a>
+            <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'link' ) ).'">View More..</a>
           </div>
         </div>
       </div>
-        <div class="mandela-now">
-            <div class="mandela-inner">
+        <div class="ceiling-graphics">
+            <div class="ceiling-graphics-inner">
                 <div class="">
-                  <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'mandela_now_sign', 'title' ) ).'</h4>
-                  <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'mandela_now_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'mandela_now_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'mandela_now_sign', 'link' ) ).'">View More..</a>
+                  <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'title' ) ).'</h4>
+                  <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-      <div class="click">
-        <div class="click-inner">
+      <div class="hanging-sign">
+        <div class="hanging-sign-inner">
           <div class="">
-            <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'click_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'click_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'click_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'click_sign', 'link' ) ).'">View More..</a>
+            <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'link' ) ).'">View More..</a>
           </div>
         </div>
       </div>
@@ -222,83 +222,83 @@ $final_output = '
         </div>
       </div>
 
-        <div class="circul">
-            <div class="circul-inner">
+        <div class="front-desk-wall-sign">
+            <div class="front-desk-wall-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'circul_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'circul_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'circul_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'circul_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="haxagon">
-            <div class="haxagon-inner">
+        <div class="wall-graphics">
+            <div class="wall-graphics-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'haxagon_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'haxagon_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'haxagon_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'haxagon_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="table-design">
-            <div class="table-design-inner">
+        <div class="front-desk-sign">
+            <div class="front-desk-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'table_design', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'table_design', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'table_design', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'table_design', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
         <div class="floor-sign">
             <div class="floor-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="yellow-wall">
-            <div class="yellow-wall-inner">
+        <div class="lobby-sign">
+            <div class="lobby-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yellow_wall_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yellow_wall_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yellow_wall_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'yellow_wall_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="diraction-easy">
-            <div class="diraction-easy-inner">
+        <div class="exit-sign">
+            <div class="exit-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'direction_easy_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'direction_easy_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'direction_easy_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'direction_easy_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="glassdesign-sign">
-            <div class="glassdesign-sign-inner">
+        <div class="privacy-film">
+            <div class="privacy-film-inner">
                 <div class="">
-                   <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'glassdesign_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'glassdesign_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'glassdesign_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'glassdesign_sign', 'link' ) ).'">View More..</a>
+                   <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>
-        <div class="human-sign">
-            <div class="human-sign-inner">
+        <div class="square-hanging-sign">
+            <div class="square-hanging-sign-inner">
                 <div class="">
-                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'human_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'human_sign', 'image' ) ).'">
-            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'human_sign', 'desc' ) ).'</p>
-            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'human_sign', 'link' ) ).'">View More..</a>
+                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'title' ) ).'</h4>
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'image' ) ).'">
+            <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'desc' ) ).'</p>
+            <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'link' ) ).'">View More..</a>
                 </div>
             </div>
         </div>

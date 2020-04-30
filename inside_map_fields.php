@@ -7,7 +7,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Caution Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -39,12 +39,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'white_board_sign',  // target section ID
+    'retractable_banners',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Retractable Banners',
     ),
     array(
         'field_id'  => 'link',
@@ -76,12 +76,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'mandela_now_sign',  // target section ID
+    'ceiling_graphics',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Ceiling Graphics',
     ),
     array(
         'field_id'  => 'link',
@@ -113,12 +113,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'click_sign',  // target section ID
+    'hanging_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Hanging Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -155,7 +155,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Reception Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -187,12 +187,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'circul_sign',  // target section ID
+    'front_desk_wall_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Front Desk Wall Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -224,12 +224,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'haxagon_sign',  // target section ID
+    'wall_graphics',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Wall Graphics',
     ),
     array(
         'field_id'  => 'link',
@@ -261,12 +261,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'table_design',  // target section ID
+    'front_desk_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Front Desk Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -298,12 +298,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'floor_sign',  // target section ID
+    'floor_graphics',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Floor Graphics',
     ),
     array(
         'field_id'  => 'link',
@@ -335,12 +335,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'yellow_wall_sign',  // target section ID
+    'lobby_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Lobby Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -372,12 +372,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'direction_easy_sign',  // target section ID
+    'exit_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Exit Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -409,12 +409,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'glassdesign_sign',  // target section ID
+    'privacy_film',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Privacy Film',
     ),
     array(
         'field_id'  => 'link',
@@ -446,12 +446,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'human_sign',  // target section ID
+    'square_hanging_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Hanging Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -488,7 +488,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Restroom Sign',
     ),
     array(
         'field_id'  => 'link',

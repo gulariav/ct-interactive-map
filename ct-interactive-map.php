@@ -2,7 +2,7 @@
 /* 
 Plugin Name: CT Interactive Map 
 Author: Vishal Gularia
-Version: 1.0.3
+Version: 2.0.1
 Plugin URI: https://clicktecs.com/
 Description: Customized Interactive Map plugin for Signs Websites by Clicktecs.
 Requires at least: 3.4
@@ -104,31 +104,31 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
                 ),
             ),
             array(
-                'section_id'        => 'open_now_sign',
+                'section_id'        => 'sidewalk_sign',
                 'title'             => 'Sidewalk Sign',
                 'collapsible'       => array(
                     'is_collapsed'     => true,
                 ),
             ),
             array(
-                'section_id'        => 'creative_sign',
+                'section_id'        => 'monument_sign', // Old name creative_sign 
                 'title'             => 'Monument Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'clicktecs_sign',
+                'section_id'        => 'yard_sign', // Old name clicktecs_sign 
                 'title'             => 'Yard Sign',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
                 ),
             ),
             array(
-                'section_id'        => 'handicap_man',
+                'section_id'        => 'ada_sign', // Old name handicap_man 
                 'title'             => 'ADA Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'wall_sign',
+                'section_id'        => 'outdoor_sign', // Old name: wall_sign
                 'title'             => 'Outdoor Sign',
                 'collapsible'       => true
             ),
@@ -138,22 +138,22 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'xyz_sign',
+                'section_id'        => 'awning_sign', //old name, xyz_sign
                 'title'             => 'Awning Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'door_sign',
+                'section_id'        => 'vinyl_lettering', //old name, door_sign
                 'title'             => 'Vinyl Lettering',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'led_sign',
+                'section_id'        => 'electrical_sign', //old name, led_sign
                 'title'             => 'Electrical Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'made_easy_sign',
+                'section_id'        => 'store_front_sign', //old name, made_easy_sign
                 'title'             => 'Store Front Sign',
                 'collapsible'       => true
             ),
@@ -168,7 +168,7 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'wall_graphic_sign',
+                'section_id'        => 'wall_graphic', //old name, wall_graphic_sign
                 'title'             => 'Wall Graphic',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
@@ -197,19 +197,19 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
                 ),
             ),
             array(
-                'section_id'        => 'white_board_sign',
+                'section_id'        => 'retractable_banners', //old name, white_board_sign
                 'title'             => 'Retractable Banners',
                 'collapsible'       => array(
                     'is_collapsed'     => true,
                 ),
             ),
             array(
-                'section_id'        => 'mandela_now_sign',
+                'section_id'        => 'ceiling_graphics', //old name, mandela_now_sign
                 'title'             => 'Ceiling Graphics',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'click_sign',
+                'section_id'        => 'hanging_sign', //old name, click_sign
                 'title'             => 'Hanging Sign',
                 'collapsible'       => array(
                     'collapse_others_on_expand' => false,
@@ -221,43 +221,43 @@ class CtInteractiveMap extends CtInteractiveMap_AdminPageFramework {
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'circul_sign',
+                'section_id'        => 'front_desk_wall_sign', //old name, circul_sign
                 'title'             => 'Front Desk Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'haxagon_sign',
+                'section_id'        => 'wall_graphics', //old name, haxagon_sign
                 'title'             => 'Wall Graphics',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'table_design',
+                'section_id'        => 'front_desk_sign', //old name, haxagon_sign
                 'title'             => 'Front Desk Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'floor_sign',
+                'section_id'        => 'floor_graphics', //old name, floor_sign
                 'title'             => 'Floor Graphics',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'yellow_wall_sign',
+                'section_id'        => 'lobby_sign', //old name, floor_sign
                 'title'             => 'Lobby Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'direction_easy_sign',
+                'section_id'        => 'exit_sign', //old name, floor_sign
                 'title'             => 'Exit Sign',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'glassdesign_sign',
+                'section_id'        => 'privacy_film', //old name, glassdesign_sign
                 'title'             => 'Privacy Film',
                 'collapsible'       => true
             ),
             array(
-                'section_id'        => 'human_sign',
-                'title'             => 'Hanging Sign',
+                'section_id'        => 'square_hanging_sign', //old name, human_sign
+                'title'             => 'Square Hanging Sign',
                 'collapsible'       => true
             ),
             array(

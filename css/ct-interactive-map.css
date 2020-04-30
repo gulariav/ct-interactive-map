@@ -20,10 +20,10 @@
     z-index: 999;
 }
 
-/*car css start*/
+/*vehicle css start*/
 
 
-.car{
+.vehicle{
     height: 29%;
     width: 51%;
     background-color: rgba(255,255,255,0.0);
@@ -32,13 +32,13 @@
     left: 70px;
     z-index: 5; /*new code edit*/
 }
-.car:hover{
+.vehicle:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.car:hover .car-inner{
+.vehicle:hover .vehicle-inner{
     display: block;
 }
-.car-inner{
+.vehicle-inner{
     width:275px;
     padding: 10px;
     background-color:#fff;
@@ -48,23 +48,23 @@
     left: 50%;
     display: none;
 }
-.car-inner div{
+.vehicle-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.car-inner h4{
+.vehicle-inner h4{
     color:#000;
     font-weight: bold;
 }
-.car-inner img{
+.vehicle-inner img{
     width:100%; 
 }
-.car-inner p{
+.vehicle-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.car-inner a{
+.vehicle-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -72,11 +72,11 @@
     text-align: center;
 }
 
-/*car css end*/
+/*vehicle css end*/
 
 /*open css start*/
 
-.open-now{
+.sidewalk-sign{
     height: 22%;
     width: 9%;
     background-color: rgba(255,255,255,0.0);
@@ -85,13 +85,13 @@
     right: 35px;
     z-index: 4; /*new code edit*/
 }
-.open-now:hover{
+.sidewalk-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.open-now:hover .open-now-inner{
+.sidewalk-sign:hover .sidewalk-sign-inner{
     display: block;
 }
-.open-now-inner{
+.sidewalk-sign-inner{
     width:275px;
     padding: 10px;
     background-color:#fff;
@@ -101,23 +101,23 @@
     right: 50%;
     display: none;
 }
-.open-now-inner div{
+.sidewalk-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.open-now-inner h4{
+.sidewalk-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.open-now-inner img{
+.sidewalk-sign-inner img{
     width:100%; 
 }
-.open-now-inner p{
+.sidewalk-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.open-now-inner a{
+.sidewalk-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -129,9 +129,9 @@
 /*open start end*/
 
 
-/*creative css start*/
+/*monument-sign css start*/
 
-.creative{
+.monument-sign{
     height: 18%;
     width: 12%;
     background-color: rgba(255,255,255,0.0);
@@ -140,13 +140,13 @@
     right: 10%;
     z-index: 4; /*new code edit*/
 }
-.creative:hover{
+.monument-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.creative:hover .creative-inner{
+.monument-sign:hover .monument-sign-inner{
     display: block;
 }
-.creative-inner{
+.monument-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -156,23 +156,23 @@
     right: 102%;
     display: none;
 }
-.creative-inner div{
+.monument-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.creative-inner h4{
+.monument-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.creative-inner img{
+.monument-sign-inner img{
     width:100%; 
 }
-.creative-inner p{
+.monument-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.creative-inner a{
+.monument-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -181,12 +181,12 @@
 }
 
 
-/*creative start end*/
+/*monument-sign start end*/
 
 
-/*creative css start*/
+/*monument-sign css start*/
 
-.clicktecs{
+.yard-sign{
     height: 14%;
     width: 13%;
     background-color: rgba(255,255,255,0.0);
@@ -195,13 +195,13 @@
     right: 32%;
     z-index: 11; /*new code edit*/
 }
-.clicktecs:hover{
+.yard-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.clicktecs:hover .clicktecs-inner{
+.yard-sign:hover .yard-sign-inner{
     display: block;
 }
-.clicktecs-inner{
+.yard-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -211,23 +211,23 @@
     right: 102%;
     display: none;
 }
-.clicktecs-inner div{
+.yard-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.clicktecs-inner h4{
+.yard-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.clicktecs-inner img{
+.yard-sign-inner img{
     width:100%; 
 }
-.clicktecs-inner p{
+.yard-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.clicktecs-inner a{
+.yard-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -236,13 +236,13 @@
 }
 
 
-/*creative start end*/
+/*monument-sign start end*/
 
 
 
-/*handicap-man start */
+/*ada-sign start */
 
-.handicap-man{
+.ada-sign{
     height: 5%;
     width: 3%;
     background-color: rgba(255,255,255,0.0);
@@ -251,13 +251,13 @@
     left: 14%;
     z-index: 3; /*new code edit*/
 }
-.handicap-man:hover{
+.ada-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.handicap-man:hover .handicap-man-inner{
+.ada-sign:hover .ada-sign-inner{
     display: block;
 }
-.handicap-man-inner{
+.ada-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -267,23 +267,23 @@
     left: 105%;
     display: none;
 }
-.handicap-man-inner div{
+.ada-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.handicap-man-inner h4{
+.ada-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.handicap-man-inner img{
+.ada-sign-inner img{
     width:100%; 
 }
-.handicap-man-inner p{
+.ada-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.handicap-man-inner a{
+.ada-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -293,11 +293,11 @@
 
 
 
-/*handicap-man end*/
+/*ada-sign end*/
 
-/*wall-sign start */
+/*outdoor-sign start */
 
-.wall-sign{
+.outdoor-sign{
     height: 15%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -306,13 +306,13 @@
     left: 17%;
     z-index: 6; /*new code edit*/
 }
-.wall-sign:hover{
+.outdoor-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.wall-sign:hover .wall-sign-inner{
+.outdoor-sign:hover .outdoor-sign-inner{
     display: block;
 }
-.wall-sign-inner{
+.outdoor-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -322,23 +322,23 @@
     left: 100%;
     display: none;
 }
-.wall-sign-inner div{
+.outdoor-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.wall-sign-inner h4{
+.outdoor-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.wall-sign-inner img{
+.outdoor-sign-inner img{
     width:100%; 
 }
-.wall-sign-inner p{
+.outdoor-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.wall-sign-inner a{
+.outdoor-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -348,10 +348,10 @@
 
 
 
-/*wall-sign end*/
+/*outdoor-sign end*/
 
 
-/*wall-sign start */
+/*outdoor-sign start */
 
 .window-sign{
     height: 15%;
@@ -404,11 +404,11 @@
 
 
 
-/*wall-sign end*/
+/*outdoor-sign end*/
 
-/*xyz-sign start */
+/*awning-sign start */
 
-.xyz-sign{
+.awning-sign{
     height: 11%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -417,13 +417,13 @@
     right: 9%;
     z-index: 3; /*new code edit*/
 }
-.xyz-sign:hover{
+.awning-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.xyz-sign:hover .xyz-sign-inner{
+.awning-sign:hover .awning-sign-inner{
     display: block;
 }
-.xyz-sign-inner{
+.awning-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -433,23 +433,23 @@
     right: 100%;
     display: none;
 }
-.xyz-sign-inner div{
+.awning-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.xyz-sign-inner h4{
+.awning-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.xyz-sign-inner img{
+.awning-sign-inner img{
     width:100%; 
 }
-.xyz-sign-inner p{
+.awning-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.xyz-sign-inner a{
+.awning-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -459,12 +459,12 @@
 
 
 
-/*xyz-sign end*/
+/*awning-sign end*/
 
 
-/*door-sign start */
+/*vinyl_lettering start */
 
-.door-sign{
+.vinyl_lettering{
     height: 19%;
     width: 9%;
     background-color: rgba(255,255,255,0.0);
@@ -473,13 +473,13 @@
     right: 13%;
     z-index: 11; /*new code edit*/
 }
-.door-sign:hover{
+.vinyl_lettering:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.door-sign:hover .door-sign-inner{
+.vinyl_lettering:hover .vinyl_lettering-inner{
     display: block;
 }
-.door-sign-inner{
+.vinyl_lettering-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -489,23 +489,23 @@
     right: 100%;
     display: none;
 }
-.door-sign-inner div{
+.vinyl_lettering-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.door-sign-inner h4{
+.vinyl_lettering-inner h4{
     color:#000;
     font-weight: bold;
 }
-.door-sign-inner img{
+.vinyl_lettering-inner img{
     width:100%; 
 }
-.door-sign-inner p{
+.vinyl_lettering-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.door-sign-inner a{
+.vinyl_lettering-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -515,11 +515,11 @@
 
 
 
-/*door-sign end*/
+/*vinyl_lettering end*/
 
-/*led-sign start */
+/*electrical-sign start */
 
-.led-sign{
+.electrical-sign{
     height: 5%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -528,13 +528,13 @@
     left: 17%;
     z-index: 9; /*new code edit*/
 }
-.led-sign:hover{
+.electrical-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.led-sign:hover .led-sign-inner{
+.electrical-sign:hover .electrical-sign-inner{
     display: block;
 }
-.led-sign-inner{
+.electrical-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -545,23 +545,23 @@
     display: none;
     z-index: 9; /*new code edit*/
 }
-.led-sign-inner div{
+.electrical-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.led-sign-inner h4{
+.electrical-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.led-sign-inner img{
+.electrical-sign-inner img{
     width:100%; 
 }
-.led-sign-inner p{
+.electrical-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.led-sign-inner a{
+.electrical-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -571,12 +571,12 @@
 
 
 
-/*led-sign end*/
+/*electrical-sign end*/
 
 
-/*led-sign start */
+/*electrical-sign start */
 
-.made-easy{
+.store-front-sign{
     height: 5%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -585,13 +585,13 @@
     left: 9%;
     z-index: 10; /*new code edit*/
 }
-.made-easy:hover{
+.store-front-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.made-easy:hover .made-easy-inner{
+.store-front-sign:hover .store-front-sign-inner{
     display: block;
 }
-.made-easy-inner{
+.store-front-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -601,23 +601,23 @@
     left: 100%;
     display: none;
 }
-.made-easy-inner div{
+.store-front-sign-inner div{
     padding:10px;
     border:5px solid darkgray;
 }
-.made-easy-inner h4{
+.store-front-sign-inner h4{
     color:#000;
     font-weight: bold;
 }
-.made-easy-inner img{
+.store-front-sign-inner img{
     width:100%; 
 }
-.made-easy-inner p{
+.store-front-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.made-easy-inner a{
+.store-front-sign-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -627,9 +627,9 @@
 
 
 
-/*led-sign end*/
+/*electrical-sign end*/
 
-/*led-sign start */
+/*electrical-sign start */
 
 .Directional-sign{
     height: 21%;
@@ -682,7 +682,7 @@
 
 
 
-/*led-sign end*/
+/*electrical-sign end*/
 
 
 /*roof-sign start */
@@ -806,10 +806,10 @@
     .intetactivemap{
         width:992px;
     }
-    .open-now-inner{
+    .sidewalk-sign-inner{
         bottom: -100%;
     }
-    .creative-inner{
+    .monument-sign-inner{
         bottom: -243%;
     }
 }
@@ -817,7 +817,7 @@
     .intetactivemap{
         width:100%;
     }
-    .creative-inner{
+    .monument-sign-inner{
         bottom: -310%;
     }
     .roof-sign-inner{
@@ -828,7 +828,7 @@
         top: 76px;
         left: 7%;
     }
-    .handicap-man-inner{
+    .ada-sign-inner{
         top:25%;
     }
 }
@@ -836,36 +836,36 @@
     .intetactivemap{
         width:100%;
     }
-    .creative-inner{
+    .monument-sign-inner{
         bottom: -1080%;
         right:-40%;
         top: 182px;
     }
-    .open-now-inner{
+    .sidewalk-sign-inner{
         bottom: -445px;
         right: 46%;
     }
-    .clicktecs-inner{
+    .yard-sign-inner{
         bottom: -1176%;
         right: -215%;
     }
-    .car-inner{
+    .vehicle-inner{
         left: -11%;
         bottom: -439%;
         top: 76px;
     }
-    .car{
+    .vehicle{
         left:28px;
     }
     .Directional-sign-inner{
         top:281px;
         left: 14px;
     }
-    .wall-sign-inner{
+    .outdoor-sign-inner{
         top:132px;
         left: -38px;
     }
-    .led-sign-inner{
+    .electrical-sign-inner{
         top:132px;
         left: -41px;
     }
@@ -878,11 +878,11 @@
         left: -114%;
         left: -133px;
     }
-    .xyz-sign-inner{
+    .awning-sign-inner{
         top:150px;
         right: -17px;
     }
-    .door-sign-inner{
+    .vinyl_lettering-inner{
         top:110px;
         right: -32px;
     }
@@ -890,15 +890,15 @@
         top: 261px;
         left: -138px;
     }
-    .handicap-man-inner{
+    .ada-sign-inner{
         top:100px;
         left: -284%;
     }
-    .made-easy-inner{
+    .store-front-sign-inner{
         top: 154px;
         left: 0px;
     }
-    .open-now{
+    .sidewalk-sign{
         bottom: 7%;
         right: 3%;
     }
@@ -973,7 +973,7 @@
 
 /*open css start*/
 
-.white-board{
+.retractable-banners{
     height: 46%;
     width: 10%;
     background-color: rgba(255,255,255,0.0);
@@ -982,13 +982,13 @@
     right: 12px;
     z-index: 3;
 }
-.white-board:hover{
+.retractable-banners:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.white-board:hover .white-board-inner{
+.retractable-banners:hover .retractable-banners-inner{
     display: block;
 }
-.white-board-inner{
+.retractable-banners-inner{
     width:275px;
     padding: 10px;
     background-color:#fff;
@@ -998,25 +998,25 @@
     right: 97%;
     display: none;
 }
-.white-board-inner div{
+.retractable-banners-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.white-board-inner h4{
+.retractable-banners-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.white-board-inner img{
+.retractable-banners-inner img{
     width:100%; 
 }
-.white-board-inner p{
+.retractable-banners-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.white-board-inner a{
+.retractable-banners-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1028,7 +1028,7 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.white-board-inner a:hover{
+.retractable-banners-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1037,9 +1037,9 @@
 
 /*open start end*/
 
-/*mandela css start*/
+/*ceiling-graphics css start*/
 
-.mandela-now{
+.ceiling-graphics{
     height: 13%;
     width: 15%;
     background-color: rgba(255,255,255,0.0);
@@ -1049,13 +1049,13 @@
     border-radius: 49%;
     z-index: 3;
 }
-.mandela-now:hover{
+.ceiling-graphics:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.mandela-now:hover .mandela-inner{
+.ceiling-graphics:hover .ceiling-graphics-inner{
     display: block;
 }
-.mandela-inner{
+.ceiling-graphics-inner{
     width:275px;
     padding: 10px;
     background-color:#fff;
@@ -1065,25 +1065,25 @@
     right: 97%;
     display: none;
 }
-.mandela-inner div{
+.ceiling-graphics-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.mandela-inner h4{
+.ceiling-graphics-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.mandela-inner img{
+.ceiling-graphics-inner img{
     width:100%; 
 }
-.mandela-inner p{
+.ceiling-graphics-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.mandela-inner a{
+.ceiling-graphics-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1095,19 +1095,19 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.mandela-inner a:hover{
+.ceiling-graphics-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
 }
 
 
-/*mandela start end*/
+/*ceiling-graphics start end*/
 
 
-/*click css start*/
+/*hanging-sign css start*/
 
-.click{
+.hanging-sign{
     height: 15%;
     width: 13%;
     background-color: rgba(255,255,255,0.0);
@@ -1116,13 +1116,13 @@
     right: 8%;
     z-index: 3;
 }
-.click:hover{
+.hanging-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.click:hover .click-inner{
+.hanging-sign:hover .hanging-sign-inner{
     display: block;
 }
-.click-inner{
+.hanging-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1132,26 +1132,26 @@
     right: 102%;
     display: none;
 }
-.click-inner div{
+.hanging-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.click-inner h4{
+.hanging-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
     margin-bottom: 12px;
 }
-.click-inner img{
+.hanging-sign-inner img{
     width:100%; 
 }
-.click-inner p{
+.hanging-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.click-inner a{
+.hanging-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1163,17 +1163,17 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.click-inner a:hover{
+.hanging-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
 }
 
 
-/*click start end*/
+/*hanging-sign start end*/
 
 
-/*click css start*/
+/*hanging-sign css start*/
 
 .reception{
     height: 3%;
@@ -1237,12 +1237,12 @@
 }
 
 
-/*click start end*/
+/*hanging-sign start end*/
 
 
-/*wall-sign start */
+/*outdoor-sign start */
 
-.wall-sign{
+.outdoor-sign{
     height: 15%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -1251,27 +1251,27 @@
     left: 17%;
     z-index: 5;
 }
-.wall-sign:hover{
+.outdoor-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.wall-sign:hover .wall-sign-inner{
+.outdoor-sign:hover .outdoor-sign-inner{
     display: block;
 }
-.wall-sign-inner h4{
+.outdoor-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.wall-sign-inner img{
+.outdoor-sign-inner img{
     width:100%; 
 }
-.wall-sign-inner p{
+.outdoor-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.wall-sign-inner a:hover{
+.outdoor-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1279,10 +1279,10 @@
 
 
 
-/*wall-sign end*/
+/*outdoor-sign end*/
 
 
-/*wall-sign start */
+/*outdoor-sign start */
 
 .window-sign{
     height: 15%;
@@ -1323,11 +1323,11 @@
 
 
 
-/*wall-sign end*/
+/*outdoor-sign end*/
 
-/*circul start */
+/*front-desk-wall-sign start */
 
-.circul{
+.front-desk-wall-sign{
     height: 19%;
     width: 12%;
     background-color: rgba(255,255,255,0.0);
@@ -1340,13 +1340,13 @@
     -o-border-radius: 50%;
     z-index: 3;
 }
-.circul:hover{
+.front-desk-wall-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.circul:hover .circul-inner{
+.front-desk-wall-sign:hover .front-desk-wall-sign-inner{
     display: block;
 }
-.circul-inner{
+.front-desk-wall-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1356,25 +1356,25 @@
     right: 100%;
     display: none;
 }
-.circul-inner div{
+.front-desk-wall-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.circul-inner h4{
+.front-desk-wall-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.circul-inner img{
+.front-desk-wall-sign-inner img{
     width:100%; 
 }
-.circul-inner p{
+.front-desk-wall-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.circul-inner a{
+.front-desk-wall-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1386,7 +1386,7 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.circul-inner a:hover{
+.front-desk-wall-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1394,11 +1394,11 @@
 
 
 
-/*circul end*/
+/*front-desk-wall-sign end*/
 
-/*circul start */
+/*front-desk-wall-sign start */
 
-.haxagon{
+.wall-graphics{
     height: 19%;
     width: 46%;
     background-color: rgba(255,255,255,0.0);
@@ -1408,13 +1408,13 @@
     z-index: 2;
 
 }
-.haxagon:hover{
+.wall-graphics:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.haxagon:hover .haxagon-inner{
+.wall-graphics:hover .wall-graphics-inner{
     display: block;
 }
-.haxagon-inner{
+.wall-graphics-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1424,25 +1424,25 @@
     right: 100%;
     display: none;
 }
-.haxagon-inner div{
+.wall-graphics-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.haxagon-inner h4{
+.wall-graphics-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.haxagon-inner img{
+.wall-graphics-inner img{
     width:100%; 
 }
-.haxagon-inner p{
+.wall-graphics-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.haxagon-inner a{
+.wall-graphics-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1454,7 +1454,7 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.haxagon-inner a:hover{
+.wall-graphics-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1462,12 +1462,12 @@
 
 
 
-/*circul end*/
+/*front-desk-wall-sign end*/
 
 
-/*table-design start */
+/*front-desk-sign start */
 
-.table-design{
+.front-desk-sign{
     height: 19%;
     width: 35%;
     background-color: rgba(255,255,255,0.0);
@@ -1476,13 +1476,13 @@
     right: 13%;
     z-index: 2;
 }
-.table-design:hover{
+.front-desk-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.table-design:hover .table-design-inner{
+.front-desk-sign:hover .front-desk-sign-inner{
     display: block;
 }
-.table-design-inner{
+.front-desk-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1492,25 +1492,25 @@
     right: 100%;
     display: none;
 }
-.table-design-inner div{
+.front-desk-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.table-design-inner h4{
+.front-desk-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.table-design-inner img{
+.front-desk-sign-inner img{
     width:100%; 
 }
-.table-design-inner p{
+.front-desk-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.table-design-inner a{
+.front-desk-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1522,7 +1522,7 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.table-design-inner a:hover{
+.front-desk-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1530,7 +1530,7 @@
 
 
 
-/*table-design end*/
+/*front-desk-sign end*/
 
 /*floor-sign start */
 
@@ -1599,9 +1599,9 @@
 
 /*floor-sign end*/
 
-/*yellow-wall start */
+/*lobby-sign start */
 
-.yellow-wall{
+.lobby-sign{
     height: 19%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -1610,13 +1610,13 @@
     left: 27%;
     z-index: 3;
 }
-.yellow-wall:hover{
+.lobby-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.yellow-wall:hover .yellow-wall-inner{
+.lobby-sign:hover .lobby-sign-inner{
     display: block;
 }
-.yellow-wall-inner{
+.lobby-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1626,26 +1626,26 @@
     left: 100%;
     display: none;
 }
-.yellow-wall-inner div{
+.lobby-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.yellow-wall-inner h4{
+.lobby-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.yellow-wall-inner img{
+.lobby-sign-inner img{
     width:100%; 
 }
-.yellow-wall-inner p{
+.lobby-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
 
-.yellow-wall-inner a{
+.lobby-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1657,19 +1657,19 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.yellow-wall-inner a:hover{
+.lobby-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
 }
 
 
-/*yellow-wall end*/
+/*lobby-sign end*/
 
 
-/*yellow-wall start */
+/*lobby-sign start */
 
-.diraction-easy{
+.exit-sign{
     height: 8%;
     width: 6%;
     background-color: rgba(255,255,255,0.0);
@@ -1678,13 +1678,13 @@
     left: 16%;
     z-index: 3;
 }
-.diraction-easy:hover{
+.exit-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.diraction-easy:hover .diraction-easy-inner{
+.exit-sign:hover .exit-sign-inner{
     display: block;
 }
-.diraction-easy-inner{
+.exit-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1694,25 +1694,25 @@
     left: 100%;
     display: none;
 }
-.diraction-easy-inner div{
+.exit-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.diraction-easy-inner h4{
+.exit-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.diraction-easy-inner img{
+.exit-sign-inner img{
     width:100%; 
 }
-.diraction-easy-inner p{
+.exit-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.diraction-easy-inner a{
+.exit-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1724,18 +1724,18 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.diraction-easy-inner a:hover{
+.exit-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
 }
 
 
-/*yellow-wall end*/
+/*lobby-sign end*/
 
-/*yellow-wall start */
+/*lobby-sign start */
 
-.glassdesign-sign{
+.privacy-film{
     height: 50%;
     width: 25%;
     background-color: rgba(255,255,255,0.0);
@@ -1744,13 +1744,13 @@
     left: 1%;
     z-index: 3;
 }
-.glassdesign-sign:hover{
+.privacy-film:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.glassdesign-sign:hover .glassdesign-sign-inner{
+.privacy-film:hover .privacy-film-inner{
     display: block;
 }
-.glassdesign-sign-inner{
+.privacy-film-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1760,27 +1760,27 @@
     left: 100%;
     display: none;
 }
-.glassdesign-sign-inner div{
+.privacy-film-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.glassdesign-sign-inner h4{
+.privacy-film-inner h4{
     color: #000;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 12px;
     text-align: center;
 }
-.glassdesign-sign-inner img{
+.privacy-film-inner img{
     width:100%; 
 }
-.glassdesign-sign-inner p{
+.privacy-film-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.glassdesign-sign-inner a{
+.privacy-film-inner a{
     display: block;
     padding:10px;
     text-decoration: none;
@@ -1792,7 +1792,7 @@
     font-size: 20px;
     border:3px solid transparent;
 }
-.glassdesign-sign-inner a:hover{
+.privacy-film-inner a:hover{
     background-color: transparent;
     color:#bda805;
     border:3px solid #bda805;
@@ -1800,12 +1800,12 @@
 
 
 
-/*yellow-wall end*/
+/*lobby-sign end*/
 
 
-/*human-sign start */
+/*square-hanging-sign start */
 
-.human-sign{
+.square-hanging-sign{
     height: 7%;
     width: 14%;
     background-color: rgba(255,255,255,0.0);
@@ -1814,13 +1814,13 @@
     left: 31%;
     z-index: 3;
 }
-.human-sign:hover{
+.square-hanging-sign:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.human-sign:hover .human-sign-inner{
+.square-hanging-sign:hover .square-hanging-sign-inner{
     display: block;
 }
-.human-sign-inner{
+.square-hanging-sign-inner{
     width: 275px;
     padding: 10px;
     background-color: #fff;
@@ -1830,25 +1830,25 @@
     left: 100%;
     display: none;
 }
-.human-sign-inner div{
+.square-hanging-sign-inner div{
     padding:10px;
     border:5px solid #d5be0b;
 }
-.human-sign-inner h4{
+.square-hanging-sign-inner h4{
     color:#000;
     font-weight: bold;
     text-align: center;
 }
-.human-sign-inner img{
+.square-hanging-sign-inner img{
     width:100%; 
 }
-.human-sign-inner p{
+.square-hanging-sign-inner p{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
-.human-sign-inner a{
+.square-hanging-sign-inner a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -1860,7 +1860,7 @@
     font-size: 20px;
     border: 3px solid transparent;
 }
-.human-sign-inner a:hover{
+.square-hanging-sign-inner a:hover{
     background-color: transparent;
     color: #bda805;
     border: 3px solid #bda805;
@@ -1868,7 +1868,7 @@
 
 
 
-/*human-sign end*/
+/*square-hanging-sign end*/
 
 /*restroom-sign start */
 
@@ -1956,10 +1956,10 @@
     .intetactivemap{
         width:100%;
     }
-    .click-inner{
+    .hanging-sign-inner{
         top: 239px;
     }
-    .human-sign-inner{
+    .square-hanging-sign-inner{
         top: 87px;
         left: 52%;
     }
@@ -1967,7 +1967,7 @@
         top: 76px;
         left: 7%;
     }
-    .handicap-man-inner{
+    .ada-sign-inner{
         top:25%;
     }
     .floor-sign-inner {
@@ -1979,12 +1979,12 @@
     .intetactivemap{
         width:100%;
     }
-    .click-inner{
+    .hanging-sign-inner{
         bottom: -1080%;
         right:-40%;
         top: 182px;
     }
-    .white-board-inner{
+    .retractable-banners-inner{
         bottom: -654%;
         right: 0;
         top:100px;
@@ -2000,15 +2000,15 @@
     .caution{
         left:28px;
     }
-    .glassdesign-sign-inner{
+    .privacy-film-inner{
         top: 163px;
         left: 6px;
     }
-    .wall-sign-inner{
+    .outdoor-sign-inner{
         top:132px;
         left: -38px;
     }
-    .yellow-wall-inner{
+    .lobby-sign-inner{
         top:132px;
         left: -74px;
     }
@@ -2020,38 +2020,38 @@
         top: 143px;
         left: -106px;
     }
-    .circul-inner{
+    .front-desk-wall-sign-inner{
         top:150px;
         right: -55px;
     }
-    .table-design-inner{
+    .front-desk-sign-inner{
         top:110px;
         right: -32px;
     }
-    .human-sign-inner{
+    .square-hanging-sign-inner{
         top: 191px;
         left: -90px;
     }
-    .handicap-man-inner{
+    .ada-sign-inner{
         top:100px;
         left: -284%;
     }
-    .diraction-easy-inner{
+    .exit-sign-inner{
         top: 188px;
         left: -39px;
     }
-    .white-board{
+    .retractable-banners{
         bottom: 7%;
         right: 3%;
     }
     .reception{
         bottom: 40%;
     }
-    .mandela-inner {
+    .ceiling-graphics-inner {
         top: 109%;
         right: -144%;
     }
-    .mandela-inner {
+    .ceiling-graphics-inner {
         top: 125%;
         right: -144%;
     }
@@ -2059,7 +2059,7 @@
         top: 67%;
         right: -92%;
     }
-    .haxagon-inner {
+    .wall-graphics-inner {
         top: 89%;
         right: 10%;
     }

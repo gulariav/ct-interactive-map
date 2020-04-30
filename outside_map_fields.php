@@ -7,7 +7,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Vehicle Graphic',
     ),
     array(
         'field_id'  => 'link',
@@ -39,12 +39,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'open_now_sign',  // target section ID
+    'sidewalk_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Sidewalk Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -76,12 +76,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'creative_sign',  // target section ID
+    'monument_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Monument Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -113,12 +113,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'clicktecs_sign',  // target section ID
+    'yard_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Yard Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -150,12 +150,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'handicap_man',  // target section ID
+    'ada_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'ADA Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -187,12 +187,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'wall_sign',  // target section ID
+    'outdoor_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Outdoor Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -229,7 +229,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Window Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -261,12 +261,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'xyz_sign',  // target section ID
+    'awning_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Awning Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -298,12 +298,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'door_sign',  // target section ID
+    'vinyl_lettering',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Vinyl Lettering',
     ),
     array(
         'field_id'  => 'link',
@@ -335,12 +335,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'led_sign',  // target section ID
+    'electrical_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Electrical Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -372,12 +372,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'made_easy_sign',  // target section ID
+    'store_front_sign',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Store Front Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -414,7 +414,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Directional Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -488,7 +488,7 @@ $this->addSettingFields(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Roof Sign',
     ),
     array(
         'field_id'  => 'link',
@@ -520,12 +520,12 @@ $this->addSettingFields(
 );
 
 $this->addSettingFields(
-    'wall_graphic_sign',  // target section ID
+    'wall_graphic',  // target section ID
     array(
         'field_id'  => 'title',
         'type'      => 'text',
         'title'     => __( 'Text', 'admin-page-framework-loader' ),
-        'default'   => '',
+        'default'   => 'Wall Graphic',
     ),
     array(
         'field_id'  => 'link',
