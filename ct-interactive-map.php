@@ -2,7 +2,7 @@
 /* 
 Plugin Name: CT Interactive Map 
 Author: Vishal Gularia
-Version: 2.0.2
+Version: 2.0.3
 Plugin URI: https://github.com/gulariav/ct-interactive-map
 Description: Customized Interactive Map plugin for Signs Websites by Clicktecs.
 Requires at least: 3.4

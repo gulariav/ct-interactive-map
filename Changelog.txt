@@ -1,0 +1,31 @@
+##### 2.0.3
+Added alt tag to main interactive images of outside and inside map
+
+
+##### 2.0.2
+Moved image to separate image folder 
+modified img path in front end view file
+Readme update
+
+##### 2.0.1
+Changed backend labels for all signs
+Changed front end labels for all signs 
+Change css class as per the sign name
+Changed all internal options & field name in corresponding to sign names
+Readme update
+
+##### 1.0.3
+Bugs fixed
+Changed Label of handicaped sign to ADA Sign
+Readme update, usage added
+
+##### 1.0.2
+Changed backend labels
+Removed generic conflicting styles from css file
+
+##### 1.0.1
+Added class:btn on a buttons in frontend layout
+Changed some elements title 
+Removed the font from css file, use default font from theme
+Updated Section Titles
+Bug fixed

@@ -26,7 +26,7 @@ $final_output = '
 </div>
 <div class="intetactivemap im-outside">
 
-   		<img src="'.$main_outside_img_src.'">
+   		<img src="'.$main_outside_img_src.'" alt="Outside Signs Interactive Main Image">
    		<div class="vehicle">
    			<div class="vehicle-inner">
    				<div class="">
@@ -170,7 +170,7 @@ $final_output = '
    </div>
 
    <div class="intetactivemap im-inside">
-      <img src="'.$main_inside_img_src.'">
+      <img src="'.$main_inside_img_src.'" alt="Inside Signs Interactive Main Image">
       <div class="caution">
         <div class="caution-inner">
           <div class="">
