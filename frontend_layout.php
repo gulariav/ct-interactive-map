@@ -31,7 +31,7 @@ $final_output = '
    			<div class="vehicle-inner">
    				<div class="">
    					<h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'title' ) ).'</h4>
-   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'image' ) ).'">
+   					<img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'image' ) ).'" alt="">
    					<p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'desc' ) ).'</p>
    					<a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'vehicle_graphics', 'link' ) ).'">View More..</a>
    				</div>
@@ -175,7 +175,7 @@ $final_output = '
         <div class="caution-inner">
           <div class="">
             <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'caution_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'caution_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'caution_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'caution_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'caution_sign', 'link' ) ).'">View More..</a>
           </div>
@@ -185,7 +185,7 @@ $final_output = '
         <div class="retractable-banners-inner">
           <div class="">
             <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'retractable_banners', 'link' ) ).'">View More..</a>
           </div>
@@ -195,7 +195,7 @@ $final_output = '
             <div class="ceiling-graphics-inner">
                 <div class="">
                   <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'title' ) ).'</h4>
-                  <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'image' ) ).'">
+                  <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'ceiling_graphics', 'link' ) ).'">View More..</a>
                 </div>
@@ -205,7 +205,7 @@ $final_output = '
         <div class="hanging-sign-inner">
           <div class="">
             <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'hanging_sign', 'link' ) ).'">View More..</a>
           </div>
@@ -215,7 +215,7 @@ $final_output = '
         <div class="reception-inner">
           <div class="">
             <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'reception_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'reception_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'reception_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'reception_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'reception_sign', 'link' ) ).'">View More..</a>
           </div>
@@ -226,7 +226,7 @@ $final_output = '
             <div class="front-desk-wall-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_wall_sign', 'link' ) ).'">View More..</a>
                 </div>
@@ -236,7 +236,7 @@ $final_output = '
             <div class="wall-graphics-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'wall_graphics', 'link' ) ).'">View More..</a>
                 </div>
@@ -246,7 +246,7 @@ $final_output = '
             <div class="front-desk-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'front_desk_sign', 'link' ) ).'">View More..</a>
                 </div>
@@ -256,7 +256,7 @@ $final_output = '
             <div class="floor-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'floor_graphics', 'link' ) ).'">View More..</a>
                 </div>
@@ -266,7 +266,7 @@ $final_output = '
             <div class="lobby-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'lobby_sign', 'link' ) ).'">View More..</a>
                 </div>
@@ -276,7 +276,7 @@ $final_output = '
             <div class="exit-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'exit_sign', 'link' ) ).'">View More..</a>
                 </div>
@@ -286,7 +286,7 @@ $final_output = '
             <div class="privacy-film-inner">
                 <div class="">
                    <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'privacy_film', 'link' ) ).'">View More..</a>
                 </div>
@@ -296,7 +296,7 @@ $final_output = '
             <div class="square-hanging-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'square_hanging_sign', 'link' ) ).'">View More..</a>
                 </div>
@@ -306,7 +306,7 @@ $final_output = '
             <div class="restroom-sign-inner">
                 <div class="">
                     <h4>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'restroom_sign', 'title' ) ).'</h4>
-            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'restroom_sign', 'image' ) ).'">
+            <img src="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'restroom_sign', 'image' ) ).'" alt="">
             <p>'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'restroom_sign', 'desc' ) ).'</p>
             <a href="'.CtInteractiveMap_AdminPageFramework::getOption( 'CtInteractiveMap', array( 'restroom_sign', 'link' ) ).'">View More..</a>
                 </div>
